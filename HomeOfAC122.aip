@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="16.9" version="16.9" Modules="professional" RootPath="." Language="zh" Id="{B3B9985C-BF3C-4461-BE8B-F10E009BE3B8}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent;MsiDriverPackagesComponent;UserAccountsComponent;ScheduledTasksComponent;SqlConnectionComponent;AutorunComponent;FirewallExceptionComponent;GameUxComponent;MsiDirectEditorComponent;SharePointSlnComponent;SilverlightSlnComponent;MultipleInstancesComponent;SccmComponent;ActSyncAppComponent;FixupComponent;MsiXDiffComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="此 Installer 数据库包含了安装 [|ProductName] 所需的逻辑和数据。" ValueLocId="*"/>
+    <ROW Property="Manufacturer" Value="深圳中学收容部"/>
+    <ROW Property="ProductCode" Value="2052:{574AA368-1806-4447-9ED3-A7F1276875AE} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="HomeOfAC122"/>
+    <ROW Property="ProductVersion" Value="1.2.2" Type="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{CF99FA46-B374-4075-85C5-596941A134E9}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="AC122Home_Dir" Directory_Parent="APPDIR" DefaultDir="AC122H~1|AC122Home"/>
+    <ROW Directory="AC122_Dir" Directory_Parent="WindowsNoEditor_Dir" DefaultDir="AC122"/>
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="Binaries_Dir" Directory_Parent="Engine_Dir" DefaultDir="Binaries"/>
+    <ROW Directory="Content_Dir" Directory_Parent="AC122_Dir" DefaultDir="Content"/>
+    <ROW Directory="DbgHelp_Dir" Directory_Parent="ThirdParty_Dir" DefaultDir="DbgHelp"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="Engine_Dir" Directory_Parent="WindowsNoEditor_Dir" DefaultDir="Engine"/>
+    <ROW Directory="Extras_Dir" Directory_Parent="Engine_Dir" DefaultDir="Extras"/>
+    <ROW Directory="GeForceNOW_Dir" Directory_Parent="NVIDIA_Dir" DefaultDir="GEFORC~1|GeForceNOW"/>
+    <ROW Directory="NVIDIA_Dir" Directory_Parent="ThirdParty_Dir" DefaultDir="NVIDIA"/>
+    <ROW Directory="NVaftermath_Dir" Directory_Parent="NVIDIA_Dir" DefaultDir="NVAFTE~1|NVaftermath"/>
+    <ROW Directory="OVRPlugin_1_Dir" Directory_Parent="OVRPlugin_Dir" DefaultDir="OVRPLU~1|OVRPlugin"/>
+    <ROW Directory="OVRPlugin_Dir" Directory_Parent="Oculus_Dir" DefaultDir="OVRPLU~1|OVRPlugin"/>
+    <ROW Directory="Oculus_Dir" Directory_Parent="ThirdParty_Dir" DefaultDir="Oculus"/>
+    <ROW Directory="Ogg_Dir" Directory_Parent="ThirdParty_Dir" DefaultDir="Ogg"/>
+    <ROW Directory="OpenVR_Dir" Directory_Parent="ThirdParty_Dir" DefaultDir="OpenVR"/>
+    <ROW Directory="OpenVRv1_5_17_Dir" Directory_Parent="OpenVR_Dir" DefaultDir="OPENVR~1|OpenVRv1_5_17"/>
+    <ROW Directory="OpenXR_Dir" Directory_Parent="ThirdParty_Dir" DefaultDir="OpenXR"/>
+    <ROW Directory="Paks_Dir" Directory_Parent="Content_Dir" DefaultDir="Paks"/>
+    <ROW Directory="PhysX3_Dir" Directory_Parent="ThirdParty_Dir" DefaultDir="PhysX3"/>
+    <ROW Directory="Redist_Dir" Directory_Parent="Extras_Dir" DefaultDir="Redist"/>
+    <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="ThirdParty_Dir" Directory_Parent="Binaries_Dir" DefaultDir="THIRDP~1|ThirdParty"/>
+    <ROW Directory="VS2015_1_Dir" Directory_Parent="Win64_5_Dir" DefaultDir="VS2015"/>
+    <ROW Directory="VS2015_2_Dir" Directory_Parent="Win64_6_Dir" DefaultDir="VS2015"/>
+    <ROW Directory="VS2015_Dir" Directory_Parent="Win64_3_Dir" DefaultDir="VS2015"/>
+    <ROW Directory="Vorbis_Dir" Directory_Parent="ThirdParty_Dir" DefaultDir="Vorbis"/>
+    <ROW Directory="Win64_1_Dir" Directory_Parent="NVaftermath_Dir" DefaultDir="Win64"/>
+    <ROW Directory="Win64_2_Dir" Directory_Parent="OVRPlugin_1_Dir" DefaultDir="Win64"/>
+    <ROW Directory="Win64_3_Dir" Directory_Parent="Ogg_Dir" DefaultDir="Win64"/>
+    <ROW Directory="Win64_4_Dir" Directory_Parent="OpenVRv1_5_17_Dir" DefaultDir="Win64"/>
+    <ROW Directory="Win64_5_Dir" Directory_Parent="PhysX3_Dir" DefaultDir="Win64"/>
+    <ROW Directory="Win64_6_Dir" Directory_Parent="Vorbis_Dir" DefaultDir="Win64"/>
+    <ROW Directory="Win64_7_Dir" Directory_Parent="Binaries_Dir" DefaultDir="Win64"/>
+    <ROW Directory="Win64_Dir" Directory_Parent="GeForceNOW_Dir" DefaultDir="Win64"/>
+    <ROW Directory="WindowsNoEditor_Dir" Directory_Parent="AC122Home_Dir" DefaultDir="WINDOW~1|WindowsNoEditor"/>
+    <ROW Directory="Windows_Dir" Directory_Parent="ThirdParty_Dir" DefaultDir="Windows"/>
+    <ROW Directory="XAudio2_9_Dir" Directory_Parent="Windows_Dir" DefaultDir="XAUDIO~1|XAudio2_9"/>
+    <ROW Directory="enus_Dir" Directory_Parent="Redist_Dir" DefaultDir="en-us"/>
+    <ROW Directory="win64_Dir" Directory_Parent="OpenXR_Dir" DefaultDir="win64"/>
+    <ROW Directory="x64_Dir" Directory_Parent="XAudio2_9_Dir" DefaultDir="x64"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="AC122WindowsNoEditor.pak" ComponentId="{0639BDCF-7F3E-4B1B-9BB5-CE3C9508D207}" Directory_="Paks_Dir" Attributes="0" KeyPath="AC122WindowsNoEditor.pak" Type="0"/>
+    <ROW Component="APEX_Clothing_x64.dll" ComponentId="{31BBE01F-40BE-4486-A87B-A93A7F9F8FA0}" Directory_="VS2015_1_Dir" Attributes="256" KeyPath="APEX_Clothing_x64.dll"/>
+    <ROW Component="APEX_Legacy_x64.dll" ComponentId="{DFE680F2-A05D-4AE8-A57E-A9E35513F68E}" Directory_="VS2015_1_Dir" Attributes="256" KeyPath="APEX_Legacy_x64.dll"/>
+    <ROW Component="APPDIR" ComponentId="{0F1DD8DB-553E-4415-9350-63213250ED73}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="ApexFramework_x64.dll" ComponentId="{3668681B-CCA8-48EA-BAA7-0800C137140A}" Directory_="VS2015_1_Dir" Attributes="256" KeyPath="ApexFramework_x64.dll"/>
+    <ROW Component="GFSDK_Aftermath_Lib.x64.dll" ComponentId="{0F5CCF3E-3B38-4A7B-A916-580CF27A9842}" Directory_="Win64_1_Dir" Attributes="256" KeyPath="GFSDK_Aftermath_Lib.x64.dll"/>
+    <ROW Component="GfnRuntimeSdk.dll" ComponentId="{A5E71DAC-CEC2-4870-AF5E-7048A12238E0}" Directory_="Win64_Dir" Attributes="256" KeyPath="GfnRuntimeSdk.dll"/>
+    <ROW Component="Manifest_NonUFSFiles_Win64.txt" ComponentId="{4808327F-86FD-471E-A2BF-7870FC842A41}" Directory_="WindowsNoEditor_Dir" Attributes="0" KeyPath="Manifest_NonUFSFiles_Win64.txt" Type="0"/>
+    <ROW Component="NvCloth_x64.dll" ComponentId="{E51361A8-74EC-40B1-8C82-276FB8760C9B}" Directory_="VS2015_1_Dir" Attributes="256" KeyPath="NvCloth_x64.dll"/>
+    <ROW Component="OVRPlugin.dll" ComponentId="{022AF3F2-BE4B-40A2-9B51-6508B83D4FCC}" Directory_="Win64_2_Dir" Attributes="256" KeyPath="OVRPlugin.dll"/>
+    <ROW Component="OpenImageDenoise.dll" ComponentId="{8DE99620-C19A-498D-A3BF-18B9C255B8AA}" Directory_="Win64_7_Dir" Attributes="256" KeyPath="OpenImageDenoise.dll"/>
+    <ROW Component="PhysX3Common_x64.dll" ComponentId="{1D8344C0-58EC-4A68-831A-DD93DB5C7BB7}" Directory_="VS2015_1_Dir" Attributes="256" KeyPath="PhysX3Common_x64.dll"/>
+    <ROW Component="PhysX3Cooking_x64.dll" ComponentId="{724773BA-7974-410D-8C90-C538519DED4F}" Directory_="VS2015_1_Dir" Attributes="256" KeyPath="PhysX3Cooking_x64.dll"/>
+    <ROW Component="PhysX3_x64.dll" ComponentId="{CB3EAF3F-354F-4FDE-8BCB-C50C5379211D}" Directory_="VS2015_1_Dir" Attributes="256" KeyPath="PhysX3_x64.dll"/>
+    <ROW Component="ProductInformation" ComponentId="{22BE9B83-30DA-41AD-8CF3-029E3F4922B5}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="PxFoundation_x64.dll" ComponentId="{07EB6F94-56A0-4884-B04D-76DB0051FE02}" Directory_="VS2015_1_Dir" Attributes="256" KeyPath="PxFoundation_x64.dll"/>
+    <ROW Component="PxPvdSDK_x64.dll" ComponentId="{326E4D6A-EE64-4D9B-9285-ACE4CA0EA042}" Directory_="VS2015_1_Dir" Attributes="256" KeyPath="PxPvdSDK_x64.dll"/>
+    <ROW Component="SHORTCUTDIR" ComponentId="{F3429022-31C5-4307-9A5A-357A03C74502}" Directory_="SHORTCUTDIR" Attributes="0"/>
+    <ROW Component="UE4GameWin64Shipping.exe" ComponentId="{FE3D8B59-41F4-4E4A-BE34-24D4A17272A9}" Directory_="Win64_7_Dir" Attributes="256" KeyPath="UE4GameWin64Shipping.exe"/>
+    <ROW Component="UE4PrereqSetup_x64.exe" ComponentId="{9EF4FF39-E7CE-49A3-8CF0-A5BFD325EFBF}" Directory_="enus_Dir" Attributes="0" KeyPath="UE4PrereqSetup_x64.exe"/>
+    <ROW Component="dbghelp.dll" ComponentId="{DE1BFDDD-2A0E-437F-9546-F007166E4E72}" Directory_="DbgHelp_Dir" Attributes="256" KeyPath="dbghelp.dll"/>
+    <ROW Component="exe" ComponentId="{FA7111FB-691B-4FE7-9283-D025624DCE62}" Directory_="WindowsNoEditor_Dir" Attributes="256" KeyPath="exe"/>
+    <ROW Component="libogg_64.dll" ComponentId="{4DA8EF8B-95EC-47C5-AF3F-DA58DC569A60}" Directory_="VS2015_Dir" Attributes="256" KeyPath="libogg_64.dll"/>
+    <ROW Component="libvorbis_64.dll" ComponentId="{6A34E17C-7224-4482-83AA-0E91C1BE8FF1}" Directory_="VS2015_2_Dir" Attributes="256" KeyPath="libvorbis_64.dll"/>
+    <ROW Component="libvorbisfile_64.dll" ComponentId="{E9A0F37F-0B6C-4045-85D0-2BC92E6DF0F9}" Directory_="VS2015_2_Dir" Attributes="256" KeyPath="libvorbisfile_64.dll"/>
+    <ROW Component="openvr_api.dll" ComponentId="{F5E344C8-943C-47CD-B7AA-C237C6A36E22}" Directory_="Win64_4_Dir" Attributes="256" KeyPath="openvr_api.dll"/>
+    <ROW Component="openxr_loader.dll" ComponentId="{2E7F5D05-3F7A-494E-A4B3-BD5C40B5AB69}" Directory_="win64_Dir" Attributes="256" KeyPath="openxr_loader.dll"/>
+    <ROW Component="tbb12.dll" ComponentId="{C7066CD3-30B9-4DBC-93A2-521F6B5122B0}" Directory_="Win64_7_Dir" Attributes="256" KeyPath="tbb12.dll"/>
+    <ROW Component="xaudio2_9redist.dll" ComponentId="{8BB6BD16-5E87-43A4-8D48-1F6E8A8EC4A1}" Directory_="x64_Dir" Attributes="256" KeyPath="xaudio2_9redist.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="AC122WindowsNoEditor.pak" Component_="AC122WindowsNoEditor.pak" FileName="AC122-~1.PAK|AC122-WindowsNoEditor.pak" Attributes="0" SourcePath="F:\AC122Home\WindowsNoEditor\AC122\Content\Paks\AC122-WindowsNoEditor.pak" SelfReg="false"/>
+    <ROW File="dbghelp.dll" Component_="dbghelp.dll" FileName="dbghelp.dll" Attributes="0" SourcePath="F:\AC122Home\WindowsNoEditor\Engine\Binaries\ThirdParty\DbgHelp\dbghelp.dll" SelfReg="false"/>
+    <ROW File="GfnRuntimeSdk.dll" Component_="GfnRuntimeSdk.dll" FileName="GFNRUN~1.DLL|GfnRuntimeSdk.dll" Attributes="0" SourcePath="F:\AC122Home\WindowsNoEditor\Engine\Binaries\ThirdParty\NVIDIA\GeForceNOW\Win64\GfnRuntimeSdk.dll" SelfReg="false"/>
+    <ROW File="GFSDK_Aftermath_Lib.x64.dll" Component_="GFSDK_Aftermath_Lib.x64.dll" FileName="GFSDK_~1.DLL|GFSDK_Aftermath_Lib.x64.dll" Attributes="0" SourcePath="F:\AC122Home\WindowsNoEditor\Engine\Binaries\ThirdParty\NVIDIA\NVaftermath\Win64\GFSDK_Aftermath_Lib.x64.dll" SelfReg="false"/>
+    <ROW File="OVRPlugin.dll" Component_="OVRPlugin.dll" FileName="OVRPLU~1.DLL|OVRPlugin.dll" Attributes="0" SourcePath="F:\AC122Home\WindowsNoEditor\Engine\Binaries\ThirdParty\Oculus\OVRPlugin\OVRPlugin\Win64\OVRPlugin.dll" SelfReg="false"/>
+    <ROW File="libogg_64.dll" Component_="libogg_64.dll" FileName="LIBOGG~1.DLL|libogg_64.dll" Attributes="0" SourcePath="F:\AC122Home\WindowsNoEditor\Engine\Binaries\ThirdParty\Ogg\Win64\VS2015\libogg_64.dll" SelfReg="false"/>
+    <ROW File="openvr_api.dll" Component_="openvr_api.dll" FileName="OPENVR~1.DLL|openvr_api.dll" Attributes="0" SourcePath="F:\AC122Home\WindowsNoEditor\Engine\Binaries\ThirdParty\OpenVR\OpenVRv1_5_17\Win64\openvr_api.dll" SelfReg="false"/>
+    <ROW File="openxr_loader.dll" Component_="openxr_loader.dll" FileName="OPENXR~1.DLL|openxr_loader.dll" Attributes="0" SourcePath="F:\AC122Home\WindowsNoEditor\Engine\Binaries\ThirdParty\OpenXR\win64\openxr_loader.dll" SelfReg="false"/>
+    <ROW File="ApexFramework_x64.dll" Component_="ApexFramework_x64.dll" FileName="APEXFR~1.DLL|ApexFramework_x64.dll" Attributes="0" SourcePath="F:\AC122Home\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\ApexFramework_x64.dll" SelfReg="false"/>
+    <ROW File="APEX_Clothing_x64.dll" Component_="APEX_Clothing_x64.dll" FileName="APEX_C~1.DLL|APEX_Clothing_x64.dll" Attributes="0" SourcePath="F:\AC122Home\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\APEX_Clothing_x64.dll" SelfReg="false"/>
+    <ROW File="APEX_Legacy_x64.dll" Component_="APEX_Legacy_x64.dll" FileName="APEX_L~1.DLL|APEX_Legacy_x64.dll" Attributes="0" SourcePath="F:\AC122Home\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\APEX_Legacy_x64.dll" SelfReg="false"/>
+    <ROW File="NvCloth_x64.dll" Component_="NvCloth_x64.dll" FileName="NVCLOT~1.DLL|NvCloth_x64.dll" Attributes="0" SourcePath="F:\AC122Home\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\NvCloth_x64.dll" SelfReg="false"/>
+    <ROW File="PhysX3Common_x64.dll" Component_="PhysX3Common_x64.dll" FileName="PHYSX3~1.DLL|PhysX3Common_x64.dll" Attributes="0" SourcePath="F:\AC122Home\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PhysX3Common_x64.dll" SelfReg="false"/>
+    <ROW File="PhysX3Cooking_x64.dll" Component_="PhysX3Cooking_x64.dll" FileName="PHYSX3~2.DLL|PhysX3Cooking_x64.dll" Attributes="0" SourcePath="F:\AC122Home\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PhysX3Cooking_x64.dll" SelfReg="false"/>
+    <ROW File="PhysX3_x64.dll" Component_="PhysX3_x64.dll" FileName="PHYSX3~3.DLL|PhysX3_x64.dll" Attributes="0" SourcePath="F:\AC122Home\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PhysX3_x64.dll" SelfReg="false"/>
+    <ROW File="PxFoundation_x64.dll" Component_="PxFoundation_x64.dll" FileName="PXFOUN~1.DLL|PxFoundation_x64.dll" Attributes="0" SourcePath="F:\AC122Home\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PxFoundation_x64.dll" SelfReg="false"/>
+    <ROW File="PxPvdSDK_x64.dll" Component_="PxPvdSDK_x64.dll" FileName="PXPVDS~1.DLL|PxPvdSDK_x64.dll" Attributes="0" SourcePath="F:\AC122Home\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PxPvdSDK_x64.dll" SelfReg="false"/>
+    <ROW File="libvorbisfile_64.dll" Component_="libvorbisfile_64.dll" FileName="LIBVOR~1.DLL|libvorbisfile_64.dll" Attributes="0" SourcePath="F:\AC122Home\WindowsNoEditor\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbisfile_64.dll" SelfReg="false"/>
+    <ROW File="libvorbis_64.dll" Component_="libvorbis_64.dll" FileName="LIBVOR~2.DLL|libvorbis_64.dll" Attributes="0" SourcePath="F:\AC122Home\WindowsNoEditor\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbis_64.dll" SelfReg="false"/>
+    <ROW File="xaudio2_9redist.dll" Component_="xaudio2_9redist.dll" FileName="XAUDIO~1.DLL|xaudio2_9redist.dll" Attributes="0" SourcePath="F:\AC122Home\WindowsNoEditor\Engine\Binaries\ThirdParty\Windows\XAudio2_9\x64\xaudio2_9redist.dll" SelfReg="false"/>
+    <ROW File="OpenImageDenoise.dll" Component_="OpenImageDenoise.dll" FileName="OPENIM~1.DLL|OpenImageDenoise.dll" Attributes="0" SourcePath="F:\AC122Home\WindowsNoEditor\Engine\Binaries\Win64\OpenImageDenoise.dll" SelfReg="false"/>
+    <ROW File="tbb12.dll" Component_="tbb12.dll" FileName="tbb12.dll" Attributes="0" SourcePath="F:\AC122Home\WindowsNoEditor\Engine\Binaries\Win64\tbb12.dll" SelfReg="false"/>
+    <ROW File="UE4GameWin64Shipping.exe" Component_="UE4GameWin64Shipping.exe" FileName="UE4GAM~1.EXE|UE4Game-Win64-Shipping.exe" Attributes="0" SourcePath="F:\AC122Home\WindowsNoEditor\Engine\Binaries\Win64\UE4Game-Win64-Shipping.exe" SelfReg="false"/>
+    <ROW File="UE4PrereqSetup_x64.exe" Component_="UE4PrereqSetup_x64.exe" FileName="UE4PRE~1.EXE|UE4PrereqSetup_x64.exe" Attributes="0" SourcePath="F:\AC122Home\WindowsNoEditor\Engine\Extras\Redist\en-us\UE4PrereqSetup_x64.exe" SelfReg="false"/>
+    <ROW File="Manifest_NonUFSFiles_Win64.txt" Component_="Manifest_NonUFSFiles_Win64.txt" FileName="MANIFE~1.TXT|Manifest_NonUFSFiles_Win64.txt" Attributes="0" SourcePath="F:\AC122Home\WindowsNoEditor\Manifest_NonUFSFiles_Win64.txt" SelfReg="false"/>
+    <ROW File="exe" Component_="exe" FileName="应用程序.exe" Attributes="0" SourcePath="F:\AC122Home\WindowsNoEditor\应用程序.exe" SelfReg="false" DigSign="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="1" Languages="zh" InstallationType="4" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_zh.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+    <ROW Directory_="SHORTCUTDIR" Component_="SHORTCUTDIR" ManualDelete="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="AC122WindowsNoEditor.pak"/>
+    <ROW Feature_="MainFeature" Component_="dbghelp.dll"/>
+    <ROW Feature_="MainFeature" Component_="GfnRuntimeSdk.dll"/>
+    <ROW Feature_="MainFeature" Component_="GFSDK_Aftermath_Lib.x64.dll"/>
+    <ROW Feature_="MainFeature" Component_="OVRPlugin.dll"/>
+    <ROW Feature_="MainFeature" Component_="libogg_64.dll"/>
+    <ROW Feature_="MainFeature" Component_="openvr_api.dll"/>
+    <ROW Feature_="MainFeature" Component_="openxr_loader.dll"/>
+    <ROW Feature_="MainFeature" Component_="ApexFramework_x64.dll"/>
+    <ROW Feature_="MainFeature" Component_="APEX_Clothing_x64.dll"/>
+    <ROW Feature_="MainFeature" Component_="APEX_Legacy_x64.dll"/>
+    <ROW Feature_="MainFeature" Component_="NvCloth_x64.dll"/>
+    <ROW Feature_="MainFeature" Component_="PhysX3Common_x64.dll"/>
+    <ROW Feature_="MainFeature" Component_="PhysX3Cooking_x64.dll"/>
+    <ROW Feature_="MainFeature" Component_="PhysX3_x64.dll"/>
+    <ROW Feature_="MainFeature" Component_="PxFoundation_x64.dll"/>
+    <ROW Feature_="MainFeature" Component_="PxPvdSDK_x64.dll"/>
+    <ROW Feature_="MainFeature" Component_="libvorbisfile_64.dll"/>
+    <ROW Feature_="MainFeature" Component_="libvorbis_64.dll"/>
+    <ROW Feature_="MainFeature" Component_="xaudio2_9redist.dll"/>
+    <ROW Feature_="MainFeature" Component_="OpenImageDenoise.dll"/>
+    <ROW Feature_="MainFeature" Component_="tbb12.dll"/>
+    <ROW Feature_="MainFeature" Component_="UE4GameWin64Shipping.exe"/>
+    <ROW Feature_="MainFeature" Component_="UE4PrereqSetup_x64.exe"/>
+    <ROW Feature_="MainFeature" Component_="Manifest_NonUFSFiles_Win64.txt"/>
+    <ROW Feature_="MainFeature" Component_="exe"/>
+    <ROW Feature_="MainFeature" Component_="SHORTCUTDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="_.exe" SourcePath="F:\AC122Home\WindowsNoEditor\应用程序.exe" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="((VersionNT &lt;&gt; 501) AND (VersionNT &lt;&gt; 502))" Description="[ProductName] 无法安装在 [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] 无法安装在 [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] 无法安装在 [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] 无法安装在 [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="AC122" Directory_="SHORTCUTDIR" Name="AC122" Component_="exe" Target="[#exe]" Hotkey="0" Icon_="_.exe" IconIndex="0" ShowCmd="1" WkDir="WindowsNoEditor_Dir"/>
+    <ROW Shortcut="AC122_1" Directory_="DesktopFolder" Name="AC122" Component_="exe" Target="[#exe]" Hotkey="0" Icon_="_.exe" IconIndex="0" ShowCmd="1" WkDir="WindowsNoEditor_Dir"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>
